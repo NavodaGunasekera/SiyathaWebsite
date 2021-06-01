@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(230deg, #f5a30b,#60b415);
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  vertical-align: center;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+main .card {
+  background-color: rgb(0, 8, 34);
+  width: 420px;
+  height: 406px;
+  /* background: linear-gradient(230deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)); */
+  -webkit-box-shadow: 0 5px 10px #ffffff;
+          box-shadow: 0 5px 10px  #fafafa; 
+  border-radius: 60%;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  /* color:linear-gradient(230deg, #f5a30b,#60b415); */
+  top: 20vh;
+  left: 34vw;
+  border-color:linear-gradient(230deg, #60b415, #f5a30b);
+  
+}
+
+main .card img {
+  height: 188px;
+  width: 400px;
+  position: relative;
+  margin-top: 14px;
+  animation-duration: 4s;
+}
+
+main .card h2 {
+  position: relative;
+  font-size: 50px;
+  margin: 15px;
+  font-family: 'Kanit', sans-serif;
+  top: -15px;
+  letter-spacing: 3px;
+  animation-duration: 4s;
+  font-weight: 1000;
+  color: #60b415 ;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+  
+}
+
+main .card h3, main .card h4 {
+  position: relative;
+  top: -35px;
+  font-family: calibri;
+  animation-duration: 4s;
+}
+
+main .card h3 {
+  font-size: 30px;
+  font-weight: 1000;
+  color: #f5a30b;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+main .card h4 {
+  font-size: 23px;
+  color: #f5a30b;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+main .card button {
+  position: relative;
+  top: -5px;
+  height: 50px;
+  width: 120px;
+  border-radius: 30px;
+  background: linear-gradient(230deg, #60b415, #f5a30b);
+  -webkit-box-shadow: 0 0 5px rgb(0, 0, 0);
+          box-shadow: 0 0 5px rgb(0, 0, 0);
+  /* border: none; */
+  border-color:linear-gradient(230deg, #60b415, #f5a30b);
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+  text-align: center;
+  margin: 0 30px 0 30px;
+  
+}
+
+main .card button a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  border:linear-gradient(230deg, #60b415, #f5a30b);
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+main .card button .sin {
+  font-size: 30px;
+}
+
+main .card button:hover {
+  opacity: .7;
+}
+/*# sourceMappingURL=welcome.css.map */

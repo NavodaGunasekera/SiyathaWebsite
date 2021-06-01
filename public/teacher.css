@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: grid;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgb(247, 0, 0);
+}
+
+
+main .sleft{
+  position: relative;
+  height: 250px;
+  width: 50%;
+}
+
+main .sleft img{
+  height: inherit;
+  width: inherit;
+}
+
+main .sright{
+  position: relative;
+  height: 250px;
+  width: 50%;
+
+}
+
+main .sright img{
+  height: inherit;
+  width: inherit;
+}
+
+/*
+main .sleft {
+  width: 55%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e9effc;
+}
+
+main .sleft .sheading {
+  font-size: 40px;
+  margin: 200px 0px 0px 100px;
+  color: #131313;
+  background: none;
+}
+
+main .sleft .sheading div {
+  font-size: 35px;
+  color: #d3000f;
+  background: none;
+  text-transform: uppercase;
+}
+
+main .sleft .ssub-heading {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px 0px 0px 100px;
+  background: none;
+  color: #949494;
+}
+
+main .sleft .smain-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 80px;
+  background: none;
+}
+
+main .sleft .smain-btn div {
+  margin-top: 50px;
+  margin-left: 20px;
+  background: none;
+}
+
+main .sleft .allbtn {
+  background: none;
+  border: 2px solid #00a71f;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  height: 65px;
+  width: 180px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 0 8px #000000;
+          box-shadow: 0 0 8px #000000;
+}
+
+main .sleft .btn2 {
+  background: #00a71f;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #fefefe;
+  font-weight: 500;
+}
+
+main .sleft .signup {
+  background: #820a16;
+  border: 2px solid #820a16;
+}
+
+main .sleft .signup:before {
+  border: 2px solid #820a16;
+}
+
+main .sleft .login:before {
+  border: 2px solid #00a71f;
+}
+
+main .sleft .btn2:before {
+  background: none;
+  content: '';
+  position: absolute;
+  width: 175px;
+  height: 60px;
+  top: 4px;
+  left: 4px;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+main .sleft .btn2:hover {
+  -webkit-transform: translate(-5px, -5px);
+          transform: translate(-5px, -5px);
+  cursor: pointer;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main .sleft .btn2:nth-child(1):before {
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+main .sleft .btn2:hover:nth-child(1):before {
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+main .sleft .btn2:nth-child(2):before {
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+main .sleft .btn2:hover:nth-child(2):before {
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+main .sright {
+  width: 45%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(images/staff/sp1.jpg);
+}
+
+
+main .sright:before {
+  content: '';
+  position: absolute;
+  left: 55%;
+  top: 0px;
+  height: 0;
+  width: 0;
+  background: none;
+  border-left: 80px solid #e9effc;
+  border-bottom: 80vh solid transparent;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  main .slogo {
+    height: 70px;
+    width: 70px;
+  }
+  main .sleft .sheading {
+    font-size: 35px;
+    margin: 100px 0px 0px 70px;
+  }
+  main .sleft .ssub-heading {
+    margin: 10px 0px 0px 70px;
+  }
+  main .sleft .smain-btn {
+    margin-left: 40px;
+  }
+  main .sleft .main-btn div {
+    margin-right: 10px;
+  }
+  main .sleft .allbtn {
+    height: 55px;
+    width: 135px;
+  }
+  main .sleft .btn2:before {
+    width: 130px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: ()[auto-fit];
+        grid-template-columns: repeat(auto-fit);
+  }
+  main .sleft {
+    width: 100%;
+    height: 66vh;
+    text-align: center;
+  }
+  main .sleft .smain-btn {
+    margin-left: 60px;
+  }
+  main .sleft .smain-btn div {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  main .sleft .allbtn {
+    height: 55px;
+    width: 140px;
+  }
+  main .sleft .btn2:before {
+    width: 135px;
+    height: 50px;
+  }
+  main .sleft .sheading {
+    font-size: 30px;
+    margin: 90px 0px 0px 10px;
+  }
+  main .sleft .ssub-heading {
+    margin: 10px 0px 0px 10px;
+  }
+  main .sright {
+    width: 100%;
+    height: 46vh;
+  }
+  main .sright .slider figure img {
+    height: 60vh;
+  }
+  main .sright:before {
+    content: none;
+  }
+}*/
+
+/*# sourceMappingURL=style.css.map */
